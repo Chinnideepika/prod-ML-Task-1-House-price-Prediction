@@ -24,7 +24,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 # 1. LOAD DATASET
 # Change this path if your train.csv is in a different location
 df = pd.read_csv(
-    r"C:\Users\Deepika\Downloads\house-prices-advanced-regression-techniques\train.csv"
+    r" "
 )
 
 print("Dataset shape (rows, cols):", df.shape)
@@ -104,3 +104,4 @@ pred_price = model.predict(example)[0]
 print("\nExample prediction for house:")
 print("  2000 sqft, 3 bed, 2 bath, LotArea=8000, GarageCars=2, OverallQual=7, YearBuilt=1995")
 print("Predicted Price:", int(pred_price))
+
